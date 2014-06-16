@@ -4,6 +4,21 @@ require 'zurb-foundation'
 
 activate :sprockets
 
+# To deploy to a remote branch via git (e.g. gh-pages on github):
+activate :deploy do |deploy|
+  deploy.method = :git
+  # remote is optional (default is "origin")
+  # run `git remote -v` to see a list of possible remotes
+  deploy.remote = "origin"
+
+  # branch is optional (default is "gh-pages")
+  # run `git branch -a` to see a list of possible branches
+  deploy.branch = "master"
+
+  # strategy is optional (default is :force_push)
+  deploy.strategy = :submodule
+end
+
 # Unfortunately ZURB puts its assets in unconventional paths, so we need to
 # manually add these paths for sprockets to find them. However, the following
 # only works within the middleman server but there doesn't seem to be any
@@ -92,7 +107,7 @@ page "humans.txt", :layout => false
 # end
 
 # Generate sitemap after build
-activate :sitemap_generator 
+activate :sitemap_generator
 
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
@@ -101,7 +116,7 @@ set :images_dir, 'images'
 # Build-specific configuration
 configure :build do
 
-  activate :minify_css        
+  activate :minify_css
   activate :minify_javascript
 
   # Enable cache buster
