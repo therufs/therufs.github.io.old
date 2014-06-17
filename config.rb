@@ -107,7 +107,7 @@ page "humans.txt", :layout => false
 # Methods defined in the helpers block are available in templates
 helpers do
   def gh_projects_hash
-    repos = HTTParty.get('https://api.github.com/users/therufs/repos').body
+    repos = HTTParty.get('https://api.github.com/users/therufs/repos', headers: {"User-Agent" => "frobitz"}).body
     parsed = JSON.parse(repos)
     repo_hash = {}
     parsed.each do |repo|
