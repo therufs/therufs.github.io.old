@@ -1,6 +1,7 @@
 require 'kramdown'
 require 'extensions/sitemap.rb'
 require 'zurb-foundation'
+require 'httparty'
 
 activate :sprockets
 activate :livereload
@@ -98,15 +99,21 @@ page "humans.txt", :layout => false
 # Helpers
 ###
 
+
+
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def gh_projects_hash
+    repos = HTTParty.get('https://api.github.com/users/therufs/repos').body
+    repo_hash = {}
+    repos.each do |repo|
+      repo_hash.repo.name = repo.url
+    end
+  end
+end
 
 # Generate sitemap after build
 activate :sitemap_generator
