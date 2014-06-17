@@ -1,8 +1,8 @@
 # Site settings
 title: Code Adventures
 email: ruthan-dur@theironyard.com
-description: "Ruthan once heard it said that Rails is omakase.  Sit down and have some sake."
-baseurl: "base url"
+description: "Ruthan likes sushi."
+baseurl: "posts"
 url: "this url is WAY OFF BASE"
 
 
