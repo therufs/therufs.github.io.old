@@ -1,39 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
+    <title>Code Adventures</title>
+    <description>Ruthan likes sushi.</description>
+    <link>this url is WAY OFF BASEposts/</link>
+    <atom:link href="this url is WAY OFF BASEposts/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Two down...</title>
+        <description>&lt;p&gt;I’ve spent the evening watching notifications roll in as students submit their second homework and wishing I knew how to capture the way it feels to see what they come up with.  &lt;/p&gt;
+
+&lt;p&gt;The assignment was pretty simple: the computer picks a number and the player tries to guess the number. No two people came up with the same code.  Moreover, no two people came up with the same game. “Guess a number” doesn’t sound like my idea of a Super Fun Game, but &lt;a href=&quot;https://github.com/ernbrn/homework2/blob/master/homework2.rb#L1&quot;&gt;every&lt;/a&gt; &lt;a href=&quot;https://github.com/Ichus/Homework2/blob/master/game.rb#L19&quot;&gt;single&lt;/a&gt; &lt;a href=&quot;https://github.com/jcward10/homework2/blob/master/mainhw2.rb#L53&quot;&gt;student’s&lt;/a&gt; &lt;a href=&quot;https://github.com/maebeale/homework2/blob/master/game.rb#L25&quot;&gt;personality&lt;/a&gt; shines through in what they created.  &lt;/p&gt;
+</description>
+        <pubDate>Tue, 03 Jun 2014 19:17:18 -0400</pubDate>
+        <link>this url is WAY OFF BASEposts/academy/2014/06/03/two-down/</link>
+        <guid isPermaLink="true">this url is WAY OFF BASEposts/academy/2014/06/03/two-down/</guid>
+      </item>
+    
+      <item>
+        <title>*tap tap* is this thing on?</title>
+        <description>&lt;p&gt;I have a shiny new MacBook (c/o &lt;a href=&quot;https://twitter.com/connerk&quot;&gt;Kevin&lt;/a&gt;, nice to meet you, Mavericks). Ruby is installed, and so is &lt;a href=&quot;http://atom.io&quot;&gt;Atom&lt;/a&gt;, which I’m getting to know as I write THIS VERY POST, and which even now is reminding me that I need to edit my .gitignore (silly swap file.)&lt;/p&gt;
+
+&lt;p&gt;I need notebook paper, because I’m &lt;a href=&quot;http://academy.smashingboxes.com/&quot;&gt;STARTING CLASS SOON&lt;/a&gt;. On Monday, in fact! Tomorrow I’m going to have lunch and course prep with &lt;a href=&quot;https://twitter.com/juliaelman&quot;&gt;Julia&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/JessicaMitsch&quot;&gt;Jessica&lt;/a&gt;, and Emily (no link yet).  &lt;/p&gt;
+
+&lt;p&gt;I’m basically beside myself with excitement.  :)  I get to spend 12 weeks learning about Rails and working on projects.  TWELVE WEEKS!  Remember how when you were in elementary school, the first day of summer vacation felt like forever?  It feels like forever.  &lt;/p&gt;
+
+&lt;p&gt;We’re gonna have some great adventures this summer.  &lt;/p&gt;
+</description>
+        <pubDate>Tue, 27 May 2014 17:41:06 -0400</pubDate>
+        <link>this url is WAY OFF BASEposts/academy/credits/2014/05/27/testing-testing/</link>
+        <guid isPermaLink="true">this url is WAY OFF BASEposts/academy/credits/2014/05/27/testing-testing/</guid>
+      </item>
     
       <item>
         <title>I AM THE FIRST POST</title>
         <description>&lt;p&gt;I AM THE FIRST POST!  Helloo!&lt;/p&gt;
 </description>
         <pubDate>Mon, 19 May 2014 15:20:06 -0400</pubDate>
-        <link>http://yourdomain.com/chat/2014/05/19/first-post/</link>
-        <guid isPermaLink="true">http://yourdomain.com/chat/2014/05/19/first-post/</guid>
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 19 May 2014 15:08:26 -0400</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2014/05/19/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2014/05/19/welcome-to-jekyll/</guid>
+        <link>this url is WAY OFF BASEposts/chat/2014/05/19/first-post/</link>
+        <guid isPermaLink="true">this url is WAY OFF BASEposts/chat/2014/05/19/first-post/</guid>
       </item>
     
   </channel>
