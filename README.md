@@ -1,4 +1,2 @@
-therufs.github.io uses:
-
-- Middleman
-- Foundation 
+therufs.github.io
+=================
