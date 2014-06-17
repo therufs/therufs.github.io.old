@@ -108,8 +108,9 @@ page "humans.txt", :layout => false
 helpers do
   def gh_projects_hash
     repos = HTTParty.get('https://api.github.com/users/therufs/repos').body
+    parsed = JSON.parse(repos)
     repo_hash = {}
-    repos.each do |repo|
+    parsed.each do |repo|
       repo_hash.repo.name = repo.url
     end
   end
